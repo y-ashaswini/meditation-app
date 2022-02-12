@@ -54,36 +54,132 @@
     <!-- Timer and Playlist -->
     <div class="timer">
         <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="playlist-text">
-                    CREATE PLAYLIST
-                </div>
-            </div>
-            
-            <div class="col-lg-6">
+
+            <div class="col-lg-12">
                 <div class="timer-text">
-                    SET TIMER
+                    <span class="numbering">1. </span>SET YOUR TIMER
                 </div>
             </div>
         </div>
 
         <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="playlist">
-                    
-                </div>
-            </div>
-            
-            <div class="col-lg-6">
+
+            <div class="col-lg-12">
                 <div class="time">
                     <input class="hours" value="00">
                     :
                     <input class="minutes" value="00">
                     :
                     <input class="seconds" value="00">
+                    <br><br>
+                    <input type="button" class="timer-btn" value="START" onclick="checkTime()">
                 </div>
             </div>
         </div>
+
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <div class="playlist-text">
+                    <span class="numbering">2. </span>SELECT YOUR PLAYLIST
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="playlist">
+                    <audio controls id="music">
+                        <source class="audio-btn" src="audios/ambiant-relax-sounds-10621.mp3" type="audio/mpeg">
+                        
+                    </audio>
+                    <img src="https://i.postimg.cc/W4Dtv7jg/sound-waves.png" alt="audio image" class="audio-img">
+                    <br>Music One<br>
+                        <input type="button" class="play-pause" onclick="play()" value="PLAY">
+                        <input type="button" class="play-pause" onclick="pause()" value="PAUSE">
+                </div>
+                <input class="playlist-h" value="00">
+                :
+                <input class="playlist-m" value="00">
+                :
+                <input class="playlist-s" value="00">
+                
+                <input type="button" value="SET" class="playlist-btn">
+            </div>
+
+
+
+            <div class="col-lg-3">
+                <div class="playlist">
+                    <audio controls id="music">
+                        <source class="audio-btn" src="audios/morning-garden-acoustic-chill-15013.mp3" type="audio/mpeg">
+                        
+                    </audio>
+                    <img src="https://i.postimg.cc/W4Dtv7jg/sound-waves.png" alt="audio image" class="audio-img">
+                    <br>Music Two<br>
+                        <input type="button" class="play-pause" onclick="play()" value="PLAY">
+                        <input type="button" class="play-pause" onclick="pause()" value="PAUSE">
+                </div>
+                <input class="playlist-h" value="00">
+                :
+                <input class="playlist-m" value="00">
+                :
+                <input class="playlist-s" value="00">
+
+                <input type="button" value="SET" class="playlist-btn">
+            </div>
+
+            <div class="col-lg-3">
+                <div class="playlist">
+                    <audio controls id="music">
+                        <source class="audio-btn" src="audios/spirit-blossom-15285.mp3" type="audio/mpeg">
+                        
+                    </audio>
+                    <img src="https://i.postimg.cc/W4Dtv7jg/sound-waves.png" alt="audio image" class="audio-img">
+                    <br>Music Three<br>
+                        <input type="button" class="play-pause" onclick="play()" value="PLAY">
+                        <input type="button" class="play-pause" onclick="pause()" value="PAUSE">
+                </div>
+                <input class="playlist-h" value="00">
+                :
+                <input class="playlist-m" value="00">
+                :
+                <input class="playlist-s" value="00">
+                
+                <input type="button" value="SET" class="playlist-btn">
+            </div>
+
+
+            <div class="col-lg-3">
+                <div class="playlist">
+                    <audio controls id="music">
+                        <source class="audio-btn" src="audios/the-power-of-the-waves-16206.mp3" type="audio/mpeg">
+                        
+                    </audio>
+                    <img src="https://i.postimg.cc/W4Dtv7jg/sound-waves.png" alt="audio image" class="audio-img">
+                    <br>Music Four<br>
+                        <input type="button" class="play-pause" onclick="play()" value="PLAY">
+                        <input type="button" class="play-pause" onclick="pause()" value="PAUSE">
+                </div>
+                <input class="playlist-h" value="00">
+                :
+                <input class="playlist-m" value="00">
+                :
+                <input class="playlist-s" value="00">
+
+                <input type="button" value="SET" class="playlist-btn">
+            </div>
+
+        </div>
+
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-12">
+                <div class="final-text">
+                    <span class="numbering">3. </span>MEDITATE!
+                </div>
+            </div>
+        </div>
+
+        
     </div>
 
 

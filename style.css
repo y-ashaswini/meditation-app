@@ -47,6 +47,8 @@ body {
   color: #072227;
   background-color: white;
   border: 0;
+  border: 5px solid #072227;
+  padding: 5px 25px;
 }
 
 .bg-img {
@@ -82,26 +84,30 @@ body {
 /* Contact Page */
 
 /* Timer Page */
+.numbering {
+  font-size: 3rem;
+}
 
 .timer {
-  padding-top: 15rem;
+  padding-top: 10rem;
   text-align: center;
 }
 
-.timer-text {
-  font-size: 2.5rem;
+.timer-text,
+.final-text {
+  font-size: 2rem;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   padding: 3% 0;
-  margin: auto;
+  margin: 5% auto;
   width: 50%;
   font-weight: 600;
 }
 
 .playlist-text {
   color: #35858b;
-  font-size: 2.5rem;
-  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 2rem;
+  background-color: rgba(7, 34, 39, 0.2);
   border-radius: 20px;
   padding: 3% 0;
   margin: auto;
@@ -119,7 +125,12 @@ body {
   font-size: 2rem;
 }
 
-input.hours {
+input.hours,
+input.minutes,
+input.seconds,
+input.playlist-m,
+input.playlist-s,
+input.playlist-h {
   border: 0;
   border-radius: 15px;
   background-color: rgba(7, 34, 39, 0.2);
@@ -130,24 +141,44 @@ input.hours {
   margin: 5px;
 }
 
-input.minutes {
-  border: 0;
-  border-radius: 15px;
-  background-color: rgba(7, 34, 39, 0.2);
+.timer-btn,
+.playlist-btn,
+.play-pause {
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 1rem;
+  background-color: #072227;
   color: white;
-  font-family: "Rowdies", cursive;
-  width: 20%;
-  padding: 10px;
-  margin: 5px;
+  border: 0;
+  text-decoration: none;
+  text-align: center;
+  width: 50%;
+  margin: 5%;
 }
 
-input.seconds {
-  border: 0;
-  border-radius: 15px;
-  background-color: rgba(7, 34, 39, 0.2);
-  color: white;
-  font-family: "Rowdies", cursive;
-  width: 20%;
-  padding: 10px;
-  margin: 5px;
+.timer-btn:hover,
+.playlist-btn:hover,
+.play-pause:hover {
+  color: #072227;
+  background-color: white;
+  border: 5px solid #072227;
+  padding: 5px 25px;
+}
+
+#music {
+  visibility: hidden;
+  position: absolute;
+}
+
+.audio-img {
+  width: 30%;
+}
+
+.playlist {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 3%;
+  margin: 3%;
+  color: #072227;
+  font-weight: 900;
 }

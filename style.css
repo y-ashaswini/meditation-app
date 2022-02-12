@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: "Poiret One", cursive;
+  background-color: #072227;
+}
+
+/* Navigation Bar */
+
+.title-name {
+  font-size: 3rem;
+  font-family: "Quintessential", cursive;
+}
+
+.navigation-bar {
+  font-size: 1.5rem;
+  position: fixed;
+  background-color: rgba(53, 133, 139, 0.2);
+  width: 100%;
+  padding: 2% 3%;
+}
+
+.navigation-bar-2 {
+  font-size: 1.5rem;
+  position: fixed;
+  background-color: rgba(7, 34, 39, 0.2);
+  width: 100%;
+  padding: 2% 3%;
+}
+
+/* Home Page */
+
+.begin-btn {
+  width: 30%;
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+  font-size: 2rem;
+  background-color: #072227;
+  color: #ffffff;
+  border: 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+.begin-btn:hover {
+  color: #072227;
+  background-color: white;
+  border: 0;
+}
+
+.bg-img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-img-2 {
+  width: 15rem;
+  margin: 20% auto 5%;
+}
+
+.main-text {
+  padding-left: 5%;
+  padding-top: 10%;
+  color: white;
+  font-size: 2rem;
+}
+
+.main-text-big {
+  font-size: 7rem;
+}
+
+/* About Page */
+.about-text {
+  z-index: 1;
+  font-size: 1.5rem;
+  padding: 25% 40% 10% 45%;
+}

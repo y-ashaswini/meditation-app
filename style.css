@@ -75,13 +75,31 @@ body {
 /* About Page */
 .about-text {
   z-index: 1;
-  font-size: 2.5rem;
-  padding: 23% 35% 10% 42%;
+  font-size: 1.7rem;
+  padding: 28% 35% 10% 42%;
   color: #072227;
   line-height: 1;
+  font-style: italic;
 }
 
 /* Contact Page */
+
+.contact-us {
+  padding-top: 28%;
+  text-align: center;
+  color: #072227;
+  font-weight: 900;
+  line-height: 3;
+}
+
+.footer-icons {
+  margin: 2%;
+  font-size: 1.2rem;
+}
+.footer-icons:hover {
+  font-size: 1.2rem;
+  color: #239db3;
+}
 
 /* Timer Page */
 .numbering {
@@ -181,4 +199,8 @@ input.playlist-h {
   margin: 3%;
   color: #072227;
   font-weight: 900;
+}
+
+@media (max-width : 780px) {
+  
 }
